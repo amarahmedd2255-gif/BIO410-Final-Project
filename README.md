@@ -1,6 +1,6 @@
 # BIO410-Final-Project
 ## Background
-The data consists of 6 samples from the organism Zaire Ebolavirus. This organism is a filovirus, also known as an RNA virus that causes severe and fatal hemorrhagic fevers in humans, along with extremely high mortality rates. This filovirus.... ?
+The data consists of 6 samples from the organism Zaire Ebolavirus. This organism is a filovirus, also known as an RNA virus that causes severe and fatal hemorrhagic fevers in humans, severe headaches, extreme weakness, and spontaneous bleeding/bruising. Ebolavirus was discovered in 1976 in the Democratic Republic of Congo and is mainly found in Congo, as well as the Sub-Saharan African Regions. More specifically, the strain Zaire of Ebolavirus is responsible for the largest and most deadliest outbreak of the disease. It is mainly spread through direct contact with blood, mucus, saliva, vomit, and feces of infected individuals along with contaminated surfaces. Although the disease is highly fatal, treatments such as the rVSV-ZEBOV vaccine has decreased moratlity rates and improved overall survival rates of those that suffer from it. 
 # Purpose 
 The purpose of this project was to create a phylogenetic tree from 6 samples of Zaire Ebolavirus in order to determine the evolutionary relationships between the samples 
 # Methods 
@@ -12,3 +12,5 @@ Each of the six samples were assembled using MEGAHIT by typing in the code comma
 After the assembly, the final.contigs.fa files of each of the six were uploaded/read into R Studio through using the Biostrings package and the DECIPHER pacakge: allcontigs <- c() for(i in 1:6){contigs <- readDNAStringSet(paste0('~/[/c/Downloadsd/t', i, '_out/final.contigs.fa'))  allcontigs <- c(allcontigs, contigs) }.  The required libraries were loaded into R using the code library(DECIPHER) and library (BioStrings). The contigs were then assembled from each output folder and further aligned with the AlignSeqs function. Only the contigs that were larger than 5,000 bp were selected for the alignment. 
 ## Phylogenetic Tree Using ML Method in DECIPHER 
 After the alignment, a phylogenetic tree was generated in R using the code DECIPHER's Treeline() function. We set the maximumum likelihood using "ML" and we also set the showPlot to True. The tree was then created using the aligned contig sequences using the toalign object and viewed using the BrowseSeqs function. The data corresponds to each of the final.contigs.fa files for the six files. 
+# Results
+Here is the phylogenetic tree for the following organism. The samples that are closley related to each other are...
