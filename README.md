@@ -1,6 +1,7 @@
 # BIO410-Final-Project
 ## Background
 The data consists of 6 samples from the organism Zaire Ebolavirus. This organism is a filovirus, also known as an RNA virus that causes severe and fatal hemorrhagic fevers in humans, severe headaches, extreme weakness, and spontaneous bleeding/bruising. Ebolavirus was discovered in 1976 in the Democratic Republic of Congo and is mainly found in Congo, as well as the Sub-Saharan African Regions. More specifically, the strain Zaire of Ebolavirus is responsible for the largest and most deadliest outbreak of the disease. It is mainly spread through direct contact with blood, mucus, saliva, vomit, and feces of infected individuals along with contaminated surfaces. Although the disease is highly fatal, treatments such as the rVSV-ZEBOV vaccine has decreased moratlity rates and improved overall survival rates of those that suffer from it. 
+Citation: Grard, Gilda, et al. “Emergence of Divergent Zaire Ebola Virus Strains in Democratic Republic of the Congo in 2007 and 2008.” The Journal of Infectious Diseases, vol. 204, no. Suppl 3, 1 Nov. 2011, pp. S776–S784, www.ncbi.nlm.nih.gov/pmc/articles/PMC3218671/, https://doi.org/10.1093/infdis/jir364.
 # Purpose 
 The purpose of this project was to create a phylogenetic tree from 6 samples of Zaire Ebolavirus in order to determine the evolutionary relationships between the samples 
 # Methods 
